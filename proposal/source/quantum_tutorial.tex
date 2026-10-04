@@ -1,0 +1,91 @@
+\documentclass{article}
+
+\input{preamble}
+
+\usepackage[backend=biber,style=numeric,sorting=none]{biblatex}
+\addbibresource{quantum_tutorial.bib}
+
+\title{A Study Of the Concepts, Capabilities, and Limits of Quantum Computing\\
+\vspace{0.2in}
+\large Conference Tutorial}
+
+\author{
+  Adam Wade Lewis\\
+  Division of Mathematical, Computer, and Applied Sciences\\
+  Athens State University\\
+  Athens, Alabama 35611\\
+  \texttt{Adam.Lewis@athens.edu}
+}
+
+\date{}
+
+\begin{document}
+\maketitle
+
+Quantum computing is a model of computation that uses principles from
+quantum mechanics to process information \cite{kaye_laflamme_mosca_2007}.
+Classical computation begins with the bit, which stores a value of either
+$0$ or $1$. Quantum computers instead use \textit{qubits}, whose states can
+exhibit superposition, entanglement, and interference. These properties make
+quantum computers useful for certain specialized problems, including integer
+factorization and structured search, where quantum algorithms can offer
+advantages over known classical approaches \cite{nielsen_chuang_2010}.
+
+This hands-on tutorial offers a practical introduction to quantum computing
+for undergraduate computing students, technically curious faculty, and IT
+professionals. No prior background in quantum mechanics is required although
+familiarity with basic computer science, linear algebra, and
+probability will be helpful.
+
+Participants will use a Jupyter Notebook \cite{Kluyver2016aa} built around
+IBM's Qiskit framework \cite{qiskit_docs_2026,javadi_abhari_qiskit_2024}.
+The notebook uses Qiskit to construct small quantum circuits, run them on
+simulators, and interpret the resulting measurement counts. These examples
+allow participants to see how quantum programs are represented, executed, and
+analyzed without requiring access to physical quantum hardware.
+
+The session begins by comparing the classical bit with the qubit, the basic
+unit of quantum information. Participants then explore measurement,
+superposition, probability amplitudes, and entanglement through small circuit
+examples. The presentation avoids unnecessary physics and instead frames
+quantum behavior in terms of information representation and computation.
+
+The tutorial next introduces quantum gates and circuits as counterparts to
+classical logic gates and circuits. Examples using the Hadamard gate and the
+controlled-NOT gate show how quantum states are transformed and how simple
+circuits can produce superposition and entanglement. The session then briefly
+connects these ideas to landmark algorithms, including Grover's search
+algorithm \cite{grover_1996} and Shor's factoring algorithm \cite{shor_1994}.
+
+The final portion addresses the practical limits of current quantum
+computing. Participants consider what quantum computers may do well, what
+they do not yet do well, and why noise, decoherence, limited qubit counts,
+and error correction remain central challenges. The discussion also connects
+quantum computing to likely application areas, including cryptography,
+optimization, quantum simulation, and quantum-safe security
+\cite{nist_pqc_standards_2024}.
+
+By the end of the tutorial, participants should be able to distinguish a
+classical bit from a qubit, describe superposition and entanglement in plain
+language, explain the role of quantum gates and circuits, identify several
+important quantum algorithms, and separate realistic near-term uses of quantum
+computing from common misconceptions.
+
+\section*{Availability}
+The Jupyter Notebook and supporting files for this tutorial are hosted on
+GitHub at \url{https://github.com/adamwadelewis/quantum_tutorial}.
+
+\section*{Biography}
+Dr. Lewis joined Athens State University's Division of Mathematical,
+Computer, and Applied Sciences in the Fall of 2012 after an extensive
+career in the computing industry. His research interests include
+computational linguistics, high-performance computing, and the computer
+architectures and systems that support those fields.
+
+\medskip
+
+{\small
+\printbibliography
+}
+
+\end{document}

@@ -1,0 +1,331 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{kaye_laflamme_mosca_2007}{book}{}
+      \name{author}{3}{}{%
+        {{hash=db681c1c4bb54594b997829c7a2ed2ed}{%
+           family={Kaye},
+           familyi={K\bibinitperiod},
+           given={Phillip},
+           giveni={P\bibinitperiod}}}%
+        {{hash=358478dbb594b4c7cb16ffd5185de88b}{%
+           family={Laflamme},
+           familyi={L\bibinitperiod},
+           given={Raymond},
+           giveni={R\bibinitperiod}}}%
+        {{hash=cac498e264a2fdb0a8c4dd3e95c92055}{%
+           family={Mosca},
+           familyi={M\bibinitperiod},
+           given={Michele},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{715573f93f5c5ed86e82edd5a3d957fe}
+      \strng{fullhash}{715573f93f5c5ed86e82edd5a3d957fe}
+      \strng{bibnamehash}{715573f93f5c5ed86e82edd5a3d957fe}
+      \strng{authorbibnamehash}{715573f93f5c5ed86e82edd5a3d957fe}
+      \strng{authornamehash}{715573f93f5c5ed86e82edd5a3d957fe}
+      \strng{authorfullhash}{715573f93f5c5ed86e82edd5a3d957fe}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780198570493}
+      \field{note}{Accessible reference for basic quantum computing concepts and algorithms}
+      \field{title}{An Introduction to Quantum Computing}
+      \field{year}{2007}
+    \endentry
+    \entry{nielsen_chuang_2010}{book}{}
+      \name{author}{2}{}{%
+        {{hash=afe17482fc813e497188aee3b3783879}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Michael\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=415ddff2f58b25977b1a2dedf18f4501}{%
+           family={Chuang},
+           familyi={C\bibinitperiod},
+           given={Isaac\bibnamedelima L.},
+           giveni={I\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{456599bb4a61c2e997e2a7e1a21b25b4}
+      \strng{fullhash}{456599bb4a61c2e997e2a7e1a21b25b4}
+      \strng{bibnamehash}{456599bb4a61c2e997e2a7e1a21b25b4}
+      \strng{authorbibnamehash}{456599bb4a61c2e997e2a7e1a21b25b4}
+      \strng{authornamehash}{456599bb4a61c2e997e2a7e1a21b25b4}
+      \strng{authorfullhash}{456599bb4a61c2e997e2a7e1a21b25b4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{10th Anniversary Edition}
+      \field{isbn}{9781107002173}
+      \field{note}{Foundational reference for qubits, quantum gates, circuits, measurement, entanglement, and quantum algorithms}
+      \field{title}{Quantum Computation and Quantum Information}
+      \field{year}{2010}
+    \endentry
+    \entry{Kluyver2016aa}{inproceedings}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=282b5d6fe909cc357c8dd473058b8fdc}{%
+           family={Kluyver},
+           familyi={K\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{48035973e2ebb91d3445f30ca56d312f}
+      \strng{fullhash}{48035973e2ebb91d3445f30ca56d312f}
+      \strng{bibnamehash}{48035973e2ebb91d3445f30ca56d312f}
+      \strng{authorbibnamehash}{48035973e2ebb91d3445f30ca56d312f}
+      \strng{authornamehash}{48035973e2ebb91d3445f30ca56d312f}
+      \strng{authorfullhash}{48035973e2ebb91d3445f30ca56d312f}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Positioning and Power in Academic Publishing: Players, Agents and Agendas}
+      \field{title}{Jupyter Notebooks -- a publishing format for reproducible computational workflows}
+      \field{year}{2016}
+      \field{pages}{87\bibrangedash 90}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.3233/978-1-61499-649-1-87
+      \endverb
+    \endentry
+    \entry{qiskit_docs_2026}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=091825ef571773417253c5c2f9bac796}{%
+           family={{IBM Quantum}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{091825ef571773417253c5c2f9bac796}
+      \strng{fullhash}{091825ef571773417253c5c2f9bac796}
+      \strng{bibnamehash}{091825ef571773417253c5c2f9bac796}
+      \strng{authorbibnamehash}{091825ef571773417253c5c2f9bac796}
+      \strng{authornamehash}{091825ef571773417253c5c2f9bac796}
+      \strng{authorfullhash}{091825ef571773417253c5c2f9bac796}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed 2026-06-12; documentation for Qiskit workflows, circuits, operators, and primitives}
+      \field{title}{IBM Quantum Documentation: Introduction to Qiskit}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://quantum.cloud.ibm.com/docs
+      \endverb
+      \verb{url}
+      \verb https://quantum.cloud.ibm.com/docs
+      \endverb
+    \endentry
+    \entry{javadi_abhari_qiskit_2024}{misc}{}
+      \name{author}{12}{}{%
+        {{hash=191becd84b73801334fff604a5665c49}{%
+           family={Javadi-Abhari},
+           familyi={J\bibinithyphendelim A\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3ddf92bae01328a13d27c7cabe02efa1}{%
+           family={Treinish},
+           familyi={T\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9b71173fcbb124846c41e0c8e3894773}{%
+           family={Krsulich},
+           familyi={K\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=bc4a77bac59c7c82cc2b1428d662ff47}{%
+           family={Wood},
+           familyi={W\bibinitperiod},
+           given={Christopher\bibnamedelima J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=41ed78a462ad7ac7bc9c602b8d0506f5}{%
+           family={Lishman},
+           familyi={L\bibinitperiod},
+           given={Jake},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6c340749f3f6b3ae36a090c17db53a05}{%
+           family={Gacon},
+           familyi={G\bibinitperiod},
+           given={Julien},
+           giveni={J\bibinitperiod}}}%
+        {{hash=64eefbf7dbc30f454372ed7327ea5cb4}{%
+           family={Martiel},
+           familyi={M\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=18e9b26f0950d587e91a81069962248d}{%
+           family={Nation},
+           familyi={N\bibinitperiod},
+           given={Paul\bibnamedelima D.},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=1b3e8c12eb951bb269c85b45b91a44cc}{%
+           family={Bishop},
+           familyi={B\bibinitperiod},
+           given={Lev\bibnamedelima S.},
+           giveni={L\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=c04493cf8499c58c15078120b5a6737a}{%
+           family={Cross},
+           familyi={C\bibinitperiod},
+           given={Andrew\bibnamedelima W.},
+           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=91eec8d1a1dcb9e546221f8a63861ba7}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Blake\bibnamedelima R.},
+           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=13ffee31f58f6a53a6d6969d093862dc}{%
+           family={Gambetta},
+           familyi={G\bibinitperiod},
+           given={Jay\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{bbceb1aaf33962659986a12694cb690b}
+      \strng{fullhash}{c281528d08ef0903500588ac6c2b9353}
+      \strng{bibnamehash}{bbceb1aaf33962659986a12694cb690b}
+      \strng{authorbibnamehash}{bbceb1aaf33962659986a12694cb690b}
+      \strng{authornamehash}{bbceb1aaf33962659986a12694cb690b}
+      \strng{authorfullhash}{c281528d08ef0903500588ac6c2b9353}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{quant-ph}
+      \field{eprinttype}{arXiv}
+      \field{note}{Reference for Qiskit as a software development kit for quantum information science}
+      \field{title}{Quantum Computing with Qiskit}
+      \field{year}{2024}
+      \verb{eprint}
+      \verb 2405.08810
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2405.08810
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2405.08810
+      \endverb
+    \endentry
+    \entry{grover_1996}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=619ef89ee12058aba6b0df9b17b11ca3}{%
+           family={Grover},
+           familyi={G\bibinitperiod},
+           given={Lov\bibnamedelima K.},
+           giveni={L\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{619ef89ee12058aba6b0df9b17b11ca3}
+      \strng{fullhash}{619ef89ee12058aba6b0df9b17b11ca3}
+      \strng{bibnamehash}{619ef89ee12058aba6b0df9b17b11ca3}
+      \strng{authorbibnamehash}{619ef89ee12058aba6b0df9b17b11ca3}
+      \strng{authornamehash}{619ef89ee12058aba6b0df9b17b11ca3}
+      \strng{authorfullhash}{619ef89ee12058aba6b0df9b17b11ca3}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the Twenty-Eighth Annual ACM Symposium on Theory of Computing}
+      \field{note}{Original Grover search algorithm paper}
+      \field{title}{A Fast Quantum Mechanical Algorithm for Database Search}
+      \field{year}{1996}
+      \field{pages}{212\bibrangedash 219}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1145/237814.237866
+      \endverb
+    \endentry
+    \entry{shor_1994}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=7082a9c99d5d51479d4cfba6bbac2d30}{%
+           family={Shor},
+           familyi={S\bibinitperiod},
+           given={Peter\bibnamedelima W.},
+           giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE Computer Society Press}%
+      }
+      \strng{namehash}{7082a9c99d5d51479d4cfba6bbac2d30}
+      \strng{fullhash}{7082a9c99d5d51479d4cfba6bbac2d30}
+      \strng{bibnamehash}{7082a9c99d5d51479d4cfba6bbac2d30}
+      \strng{authorbibnamehash}{7082a9c99d5d51479d4cfba6bbac2d30}
+      \strng{authornamehash}{7082a9c99d5d51479d4cfba6bbac2d30}
+      \strng{authorfullhash}{7082a9c99d5d51479d4cfba6bbac2d30}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings 35th Annual Symposium on Foundations of Computer Science}
+      \field{note}{Original conference paper for Shor's factoring and discrete logarithm algorithms}
+      \field{title}{Algorithms for Quantum Computation: Discrete Logarithms and Factoring}
+      \field{year}{1994}
+      \field{pages}{124\bibrangedash 134}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/SFCS.1994.365700
+      \endverb
+    \endentry
+    \entry{nist_pqc_standards_2024}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ef9cb61878e61d434507444346b29d1a}{%
+           family={{National Institute of Standards and Technology}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{ef9cb61878e61d434507444346b29d1a}
+      \strng{fullhash}{ef9cb61878e61d434507444346b29d1a}
+      \strng{bibnamehash}{ef9cb61878e61d434507444346b29d1a}
+      \strng{authorbibnamehash}{ef9cb61878e61d434507444346b29d1a}
+      \strng{authornamehash}{ef9cb61878e61d434507444346b29d1a}
+      \strng{authorfullhash}{ef9cb61878e61d434507444346b29d1a}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{8}
+      \field{note}{Reference for post-quantum cryptography standards and security implications of quantum computing}
+      \field{title}{NIST Releases First 3 Finalized Post-Quantum Encryption Standards}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards
+      \endverb
+      \verb{url}
+      \verb https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
