@@ -1,0 +1,34 @@
+<svg viewBox="0 0 820 260" width="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#d9edf7"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="820" height="260" fill="#f5f5f5"/>
+  <rect x="30" y="90" width="100" height="55" rx="8" fill="#d9edf7" stroke="#3b5363"/>
+  <text x="80" y="123" text-anchor="middle" font-size="14" fill="#263238">Program</text>
+
+  <rect x="170" y="90" width="120" height="55" rx="8" fill="#dff0d8" stroke="#3b5363"/>
+  <text x="230" y="123" text-anchor="middle" font-size="14" fill="#263238">Compiler</text>
+
+  <rect x="340" y="90" width="140" height="55" rx="8" fill="#f8e7c3" stroke="#3b5363"/>
+  <text x="410" y="123" text-anchor="middle" font-size="14" fill="#263238">Control</text>
+  <text x="410" y="139" text-anchor="middle" font-size="13" fill="#263238">electronics</text>
+
+  <rect x="520" y="55" width="150" height="125" rx="12" fill="#e6d7f8" stroke="#3b5363"/>
+  <text x="595" y="90" text-anchor="middle" font-size="14" fill="#263238">Ion trap</text>
+  <text x="595" y="108" text-anchor="middle" font-size="12" fill="#263238">vacuum</text>
+  <text x="595" y="124" text-anchor="middle" font-size="12" fill="#263238">chamber</text>
+  <circle cx="595" cy="155" r="18" fill="#f0c9b4" stroke="#3b5363"/>
+  <circle cx="595" cy="155" r="7" fill="#d7a36a"/>
+
+  <rect x="705" y="90" width="95" height="55" rx="8" fill="#f7d7d7" stroke="#3b5363"/>
+  <text x="752" y="123" text-anchor="middle" font-size="14" fill="#263238">Readout</text>
+
+  <line x1="130" y1="117" x2="170" y2="117" stroke="#3b5363" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="290" y1="117" x2="340" y2="117" stroke="#3b5363" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="480" y1="117" x2="520" y2="117" stroke="#3b5363" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="670" y1="117" x2="705" y2="117" stroke="#3b5363" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <text x="595" y="215" text-anchor="middle" font-size="14" fill="#263238">IonQ: laser pulses + ion manipulation</text>
+</svg>
